@@ -1,4 +1,5 @@
 import './App.css';
+import { Page } from './stories/Page';
 
 const skills = [
   {
@@ -38,6 +39,7 @@ function App() {
 
   return (
     <main className='page'>
+      <Page> Hello </Page>
       <section className='section-hero'>
         <div className='hero'>
           <div className='hero-text-box'>
